@@ -26,6 +26,9 @@ async function serchImages() {
   const data = await respo.json();
 
   const res = data.results;
+  if (res.length == 0) {
+    alert("no Images Found");
+  }
 
   res.map((res) => {
     const image = document.createElement("img");

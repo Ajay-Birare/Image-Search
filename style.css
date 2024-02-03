@@ -85,6 +85,7 @@ body {
   border-radius: 10px;
   border: none;
   outline: none;
+  font-weight: bold;
 }
 
 #serchForm button {
@@ -118,8 +119,8 @@ body {
 }
 
 #serchRes img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-radius: 20px;
   /* filter: grayscale(20); */
   transition: all 0.5s;
