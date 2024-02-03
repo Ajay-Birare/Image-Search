@@ -1,0 +1,43 @@
+<!-- <body>
+    <div class="container">
+      <div>
+        <img src="cooler.png" alt="" class="imgSpin" />
+      </div>
+    </div>
+    <div>
+      <button onclick="offFan()">off</button>
+      <button onclick="speed1()">1</button>
+      <button onclick="speed2()">2</button>
+      <button onclick="speed3()">3</button>
+    </div>
+    <script>
+      let s1 = document.querySelector("button");
+
+      function speed1() {
+        let img = document.querySelector("img");
+        // img.classList.add(".imgSpin");
+        img.classList.add("imgSpin");
+        img.style.animationDuration = "1s";
+      }
+      function speed2() {
+        let img = document.querySelector("img");
+        // img.classList.add(".imgSpin");
+        img.classList.add("imgSpin");
+        img.style.animationDuration = ".5s";
+      }
+      function speed3() {
+        let img = document.querySelector("img");
+        // img.classList.add(".imgSpin");
+        img.classList.add("imgSpin");
+        img.style.animationDuration = "0.1s";
+      }
+
+      function offFan() {
+        let img = document.querySelector("img");
+        img.classList.remove("imgSpin");
+      }
+      console.log(s1);
+    </script>
+  </body> -->
+
+  above code is for cooler 

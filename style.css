@@ -1,0 +1,148 @@
+/* body {
+  height: 100vh;
+  width: 100%;
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 2rem;
+  border: 2px solid #25303b;
+  overflow: hidden;
+}
+.container img {
+  height: 300px;
+}
+.imgSpin {
+  animation: spin infinite linear;
+  animation-duration: 5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  padding: 1rem;
+  background-color: transparent;
+
+  border: 1px solid black;
+  color: black;
+  margin: 10px;
+  border-radius: 50%;
+}
+button:hover {
+  background-color: black;
+  color: white;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(113, 201, 213);
+}
+
+#serchForm {
+  width: 100%;
+  /* margin: 2rem auto; */
+  /* border-radius: 10px; */
+  /* background-color: rgb(73, 41, 73); */
+  background-color: rgb(88, 74, 213);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+}
+
+#serchForm input {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#serchForm button {
+  padding: 0 2rem;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.5s;
+  background-color: black;
+  color: white;
+}
+#serchForm button:hover {
+  background-color: rgb(113, 201, 213);
+  color: black;
+}
+
+#serchRes {
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 7rem auto;
+  gap: 20px;
+  /* 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  place-items: center;
+  grid-gap: 10px; */
+}
+
+#serchRes img {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  /* filter: grayscale(20); */
+  transition: all 0.5s;
+}
+
+#serchRes img:hover {
+  filter: grayscale(0);
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+body {
+  /* position: relative; */
+}
+
+.desc {
+  background-color: white;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 2rem;
+  border-radius: 10px;
+  display: none;
+}
